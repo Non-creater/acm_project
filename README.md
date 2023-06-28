@@ -65,7 +65,6 @@ Acknowledgments
 Express.js
 Node.js
 MongoDB
-Feel free to modify this README file according to your project structure and specific requirements. Good luck with your URL shortener project!
 
 
 
