@@ -14,11 +14,10 @@ MongoDB
 Installation
 Clone the repository:
 
-bash
+
 git clone https://github.com/your-username/url-shortener.git
 Navigate to the project directory:
 
-bash
 cd url-shortener
 Install the dependencies:
 
@@ -30,7 +29,7 @@ Start the MongoDB server:
 mongod
 Start the application:
 
-sql
+
 npm start
 
 Open your web browser and visit http://localhost:3000 to access the URL shortener interface.
@@ -38,7 +37,6 @@ Open your web browser and visit http://localhost:3000 to access the URL shortene
 Configuration
 In the project directory, you can find a file named .env.example. Rename this file to .env and update the following configurations:
 
-makefile
 PORT=3000
 MONGODB_URI=mongodb://localhost/url-shortener
 PORT: The port number on which the application will run (default: 3000).
